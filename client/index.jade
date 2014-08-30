@@ -1,8 +1,15 @@
 doctype html
 html
   head
-    meta(http-equiv='Content-type' content='text/html; charset=utf-8')
-    title React Bower Webpack | tomchentw
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title React Bootstrap Webpack | tomchentw
   body
     #react-root
-    script(type="text/javascript" src="#{assetsByChunkName.main}")
+    //- 
+    //- Please notice the async attribute here. Since this template renders
+    //- everything in #react-root using React.js, it's safe to mark the script
+    //- tag "async". We don't need to handle FOUC content in this case.
+    //- 
+    script(async type="text/javascript" src="#{assetsByChunkName.main}")
