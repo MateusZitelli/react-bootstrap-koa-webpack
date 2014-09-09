@@ -1,8 +1,8 @@
 {
-  "name": "react-bootstrap-webpack",
-  "main": "client/scripts/index.js",
+  "name": "react-bootstrap-koa-webpack",
+  "main": "server/index.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/tomchentw/react-bootstrap-webpack",
+  "homepage": "https://github.com/tomchentw/react-bootstrap-koa-webpack",
   "authors": [
     "tomchentw <developer@tomchentw.com>"
   ],

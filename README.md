@@ -1,5 +1,5 @@
-# react-bootstrap-webpack [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][coveralls-image]][coveralls-url] [![Dependencies][gemnasium-image]][gemnasium-url]
-> React.js + bower.js + webpack starter template
+# react-bootstrap-koa-webpack [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][coveralls-image]][coveralls-url] [![Dependencies][gemnasium-image]][gemnasium-url]
+> React.js + bower.js + Koa.js + webpack starter template
 
 [![Version][npm-image]][npm-url]
 
@@ -22,17 +22,12 @@ After that, you can start a dev server powered by [webpack-dev-server](http://we
 npm run dev
 ```
 
-That's it. After you want to deploy to [GitHub public pages](https://help.github.com/articles/what-are-github-pages), just run:
-
-```shell
-chmod +x ./misc/deploy-2-gh-pages.sh # run once
-./misc/deploy-2-gh-pages.sh
-```
+That's it.
 
 
 ## Development
 
-Modify the files under `/client` directory.
+Modify the files under `/client` and `./server/` directories.
 
 
 ## Contributing
@@ -46,16 +41,16 @@ Modify the files under `/client` directory.
 5. Create new Pull Request
 
 
-[npm-image]: https://img.shields.io/npm/v/react-bootstrap-webpack.svg
-[npm-url]: https://www.npmjs.org/package/react-bootstrap-webpack
+[npm-image]: https://img.shields.io/npm/v/react-bootstrap-koa-webpack.svg
+[npm-url]: https://www.npmjs.org/package/react-bootstrap-koa-webpack
 
-[travis-image]: https://travis-ci.org/tomchentw/react-bootstrap-webpack.svg?branch=master
-[travis-url]: https://travis-ci.org/tomchentw/react-bootstrap-webpack
-[codeclimate-image]: https://img.shields.io/codeclimate/github/tomchentw/react-bootstrap-webpack.svg
-[codeclimate-url]: https://codeclimate.com/github/tomchentw/react-bootstrap-webpack
-[coveralls-image]: https://img.shields.io/coveralls/tomchentw/react-bootstrap-webpack.svg
-[coveralls-url]: https://coveralls.io/r/tomchentw/react-bootstrap-webpack
-[gemnasium-image]: https://gemnasium.com/tomchentw/react-bootstrap-webpack.svg
-[gemnasium-url]: https://gemnasium.com/tomchentw/react-bootstrap-webpack
-[david-dm-image]: https://david-dm.org/tomchentw/react-bootstrap-webpack/dev-status.svg?theme=shields.io
-[david-dm-url]: https://david-dm.org/tomchentw/react-bootstrap-webpack#info=devDependencies
+[travis-image]: https://travis-ci.org/tomchentw/react-bootstrap-koa-webpack.svg?branch=master
+[travis-url]: https://travis-ci.org/tomchentw/react-bootstrap-koa-webpack
+[codeclimate-image]: https://img.shields.io/codeclimate/github/tomchentw/react-bootstrap-koa-webpack.svg
+[codeclimate-url]: https://codeclimate.com/github/tomchentw/react-bootstrap-koa-webpack
+[coveralls-image]: https://img.shields.io/coveralls/tomchentw/react-bootstrap-koa-webpack.svg
+[coveralls-url]: https://coveralls.io/r/tomchentw/react-bootstrap-koa-webpack
+[gemnasium-image]: https://gemnasium.com/tomchentw/react-bootstrap-koa-webpack.svg
+[gemnasium-url]: https://gemnasium.com/tomchentw/react-bootstrap-koa-webpack
+[david-dm-image]: https://david-dm.org/tomchentw/react-bootstrap-koa-webpack/dev-status.svg?theme=shields.io
+[david-dm-url]: https://david-dm.org/tomchentw/react-bootstrap-koa-webpack#info=devDependencies
