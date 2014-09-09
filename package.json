@@ -5,7 +5,8 @@
   "main": "server/index.js",
   "scripts": {
     "postinstall": "bower install",
-    "dev": "npm run dev_server & npm run dev_jade",
+    "start": "node --harmony server/index.js",
+    "dev": "npm run dev_server & npm run dev_jade & npm start",
     "dev_build": "jade -o ./public -O `2>&1 >/dev/null webpack` ./client",
     "dev_server": "webpack-dev-server --inline --hot --content-base ./public",
     "dev_jade": "jade -o ./public -O '{\"assetsByChunkName\":{\"main\":\"assets/bundle.js\"}}' -w ./client/*.jade"
@@ -45,6 +46,8 @@
     "webpack-dev-server": "^1.4.10"
   },
   "dependencies": {
+    "koa": "^0.11.0",
+    "koa-file-server": "^2.2.4",
     "react": "^0.11.1"
   }
 }
