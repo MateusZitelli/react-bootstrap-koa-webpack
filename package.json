@@ -6,9 +6,8 @@
   "scripts": {
     "postinstall": "bower install",
     "start": "node --harmony server/index.js",
-    "dev": "npm run dev_server & npm run dev_jade & npm start",
+    "dev": "npm run dev_jade & npm start",
     "dev_build": "jade -o ./public -O `2>&1 >/dev/null webpack` ./client",
-    "dev_server": "webpack-dev-server --inline --hot --content-base ./public",
     "dev_jade": "jade -o ./public -O '{\"assetsByChunkName\":{\"main\":\"assets/bundle.js\"}}' -w ./client/*.jade"
   },
   "repository": {
@@ -39,6 +38,7 @@
     "css-loader": "^0.7.1",
     "jade": "^1.5.0",
     "jsx-loader": "^0.11.0",
+    "koa-webpack-dev": "0.0.1",
     "react-tools": "^0.11.1",
     "sass-loader": "^0.2.0",
     "style-loader": "^0.7.0",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "koa": "^0.11.0",
-    "koa-file-server": "^2.2.4",
+    "koa-static": "^1.4.7",
     "react": "^0.11.1"
   }
 }
