@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-koa-webpack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React.js + bower.js + Koa.js + webpack starter template",
   "main": "server/index.js",
   "scripts": {

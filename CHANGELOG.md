@@ -1,3 +1,11 @@
+### 0.0.3 (2014-09-26)
+
+
+#### Features
+
+* **package.json:** update tomchentw-npm-dev version ([f4eaf8be](https://github.com/tomchentw/react-bootstrap-koa-webpack/commit/f4eaf8be245059fa4e622e689aa5b6dcce8a0658))
+
+
 ### 0.0.2 (2014-09-26)
 
 
